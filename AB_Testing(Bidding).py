@@ -52,7 +52,7 @@ Comparison of the AB Test and Conversion of Bidding Methods
 
 import numpy as np
 import pandas as pd
-# *pip install statsmodels terminal bölümünden indir
+# *pip install statsmodels import in terminal 
 import statsmodels.stats.api as sms
 from scipy.stats import ttest_1samp, shapiro, levene, ttest_ind, mannwhitneyu, \
     pearsonr, spearmanr, kendalltau, f_oneway, kruskal
@@ -197,7 +197,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 #####################################################
 
 #######################################################
-# Step 1: Please indicate which test you used and why.
+# Step 1: Indicate which test is used and why.
 #######################################################
 
 
@@ -214,7 +214,7 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 # and the test group with Averagebidding)", so we assume that the difference in the mean number of purchases is random.
 
 ########################################################
-# Step 2: Make a recommendation to the customer based on the test results you have obtained.
+# Step 2: Make a recommendation to the customer based on the obtained test results .
 ########################################################
 
 ####Averagebidding and Maximumbidding bidding types were analyzed and the results showed no significant difference
